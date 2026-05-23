@@ -1,0 +1,5 @@
+(require :sb-posix)
+(format t "~&MMAP: ~A~%" (find-symbol "MMAP" :sb-posix))
+(format t "~&PROT-EXEC: ~A~%" (find-symbol "PROT-EXEC" :sb-posix))
+(format t "~&MAP-ANON: ~A~%" (find-symbol "MAP-ANON" :sb-posix))
+(format t "~&MAP-JIT: ~A~%" (find-symbol "MAP-JIT" :sb-posix))
